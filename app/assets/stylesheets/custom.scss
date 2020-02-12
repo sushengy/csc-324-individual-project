@@ -69,7 +69,7 @@ h2 {
   margin-bottom: 30px;
   text-align: center;
   font-weight: normal;
-  color: #111;
+  color: #777;
 }
 
 p {
@@ -93,6 +93,11 @@ p {
 #logo:hover {
   color: #fff;
   text-decoration: none;
+}
+
+/* Header Color */
+.navbar.navbar-fixed-top.navbar-inverse {
+  background-color:#800080;
 }
 
 /* footer */
