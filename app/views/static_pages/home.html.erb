@@ -8,4 +8,7 @@
   <%= link_to "Sign up!", signup_path, class: "btn btn-lg btn-primary" %>
 </div>
 
-<%= link_to image_tag("simpsons/#{@index}.jpg", alt: "meme logo") %>
+<figure>
+  <%= link_to image_tag("simpsons/#{@index}.jpg", alt: "sample meme", class: "img-responsive center-block") %>
+  <figcaption>source: <%= @source_line %></figcaption>
+</figure>

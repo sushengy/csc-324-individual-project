@@ -243,3 +243,13 @@ input {
     border-bottom: 1px solid $gray-lighter;
   }
 }
+
+/* Figure Caption */
+
+figcaption {
+  background-color: white;
+  color: black;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
